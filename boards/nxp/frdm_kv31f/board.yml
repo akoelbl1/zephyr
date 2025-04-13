@@ -1,0 +1,6 @@
+board:
+  name: frdm_kv31f
+  full_name: FRDM-KV31F
+  vendor: nxp
+  socs:
+    - name: mkv31f512vll12
