@@ -1,0 +1,19 @@
+# FRDM-KV31F board
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_FRDM_KV31F
+
+config OSC_XTAL0_FREQ
+	default 8000000
+
+config MCG_FRDIV
+	default 5
+
+config MCG_FCRDIV
+	default 0
+
+config FXOS8700_DRDY_INT1
+	default y
+	depends on FXOS8700_TRIGGER
+
+endif # BOARD_FRDM_KV31F
